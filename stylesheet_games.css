@@ -1,0 +1,295 @@
+* {-webkit-font-smoothing: antialiased;}
+.container{
+  font-family: 'Open Sans';
+  max-width: 100%;
+  height: 50%;
+  position: absolute;   
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0; 
+  /*-webkit-animation: background 10s linear infinite;
+  animation: background 10s linear infinite;  */
+}
+.sidebarContainer{
+  
+  width:20%;
+  max-width: 40%;
+  height: auto;
+  position: sticky;   
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:2%;
+  right:0; 
+  display:inline-block;
+  float:left;
+  font-size:1em;
+  font-weight: bold;
+    white-space: nowrap;
+  overflow: hidden;
+  position: -webkit-sticky;
+ /* background-color:#7c5c5c;*/
+}
+.gamesContainer{
+  height: auto;
+  max-width: 70%;
+  max-height: 100%;
+  position: relative;   
+  margin:0 auto;
+  top:0%;
+  bottom:0;
+  left:5%;
+  right:0; 
+  display:inline-block;
+  text-align: left;
+  font-weight: bold;
+  /*font-size: 28px;*/
+  /*background-color:red;*/
+}
+.Title{
+  color:#8bb6ec;
+  font-weight: 900;
+  font-size: 2em;
+  text-shadow: -0.5px 0.5px #3870c6,
+              -1px 1px #3870c6,
+              -1.5px 1.5px #3870c6,
+              -2px 2px #3870c6,
+              -2.5px 2.5px #3870c6,
+              -3px 3px #3870c6,
+              -3.5px 3.5px #3870c6;
+
+  letter-spacing: 3px;
+}
+.Description{
+  color:#625b90;
+  font-weight: normal;
+  font-size: 12px;
+  max-width:560px;
+  padding:0;
+  margin: 0;
+}
+h4{
+	display: block;
+  font-size: 2vmax;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  margin-left: 0.5vmax;
+  margin-right: 0.5vmax;
+  font-style: bold;
+  font-weight: 300;
+  text-align: left;
+}
+#WizMudTitle{
+  width:100%;
+  height:auto;
+  display: block;
+  text-align: center;
+  position:relative;
+  /*box-shadow: -10px 10px 0px #dfe0df;*/
+}
+#about{
+  color:#3870c6;
+  font-size: 12px;
+   padding:0;
+  margin: 0;
+  max-width:560px;
+  font-style: italic;
+}
+#video{
+   margin: 0;
+}
+#caption{
+  font-size: 12px;
+   color:#f5bdab;
+   font-style: italic;
+}
+#links{
+  font-size: 12px;
+}
+#sectionHeader{
+  font-size:16px;
+  color:#a09cba;
+  text-shadow: -0.25px 0.25px #625b90,
+              -0.5px 0.5px #625b90,
+              -0.75px 0.75px #625b90,
+              -1px 1px #625b90,
+              -1.25px 1.25px #625b90,
+              -1.5px 1.5px #625b90;
+}
+
+#Home{
+  cursor: pointer;
+width:60%;
+height:60%;
+animation: bounce 1s;
+outline:none;
+}
+#HomeBtn{
+
+}
+#homeButton:hover>#HomeBtn{
+
+  
+}
+#b_Wizmud{
+  font-size: 2vw;
+  font-weight: 900;
+ color:#8bb6ec;
+  text-decoration: none;
+  text-shadow: -0.25px 0.25px #3870c6,
+              -0.5px 0.5px #3870c6,
+              -0.75px 0.75px #3870c6,
+              -1px 1px #3870c6,
+              -1.25px 1.25px #3870c6,
+              -1.5px 1.5px #3870c6;
+
+}
+#b_Whackanol{
+  font-size: 2vw;
+  font-weight: 900;
+  color:#c5aef4;
+  text-decoration: none;
+  text-shadow: -0.25px 0.25px #9b46bb,
+              -0.5px 0.5px #9b46bb,
+              -0.75px 0.75px #9b46bb,
+              -1px 1px #9b46bb,
+              -1.25px 1.25px #9b46bb,
+              -1.5px 1.5px #9b46bb;
+}
+#b_Fishcenter{
+  font-size: 2vw;
+  font-weight: 900;
+  color:#ea8f9c;
+  text-decoration: none;
+text-shadow: -0.25px 0.25px #d53b2e,
+              -0.5px 0.5px #d53b2e,
+              -0.75px 0.75px #d53b2e,
+              -1px 1px #d53b2e,
+              -1.25px 1.25px #d53b2e,
+              -1.5px 1.5px #d53b2e;
+}
+#b_Whackanol:hover{
+  font-size: 2vw;
+  color: #ceb4af;
+  text-shadow: -0.25px 0.25px #ab6f86,
+              -0.5px 0.5px #ab6f86,
+              -0.75px 0.75px #ab6f86,
+              -1px 1px #ab6f86,
+              -1.25px 1.25px #ab6f86,
+              -1.5px 1.5px #ab6f86;
+  -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+}
+
+#b_Wizmud:hover{
+  font-size: 2vw;
+  color: #aeb8aa;
+  text-shadow: -0.25px 0.25px #77878e,
+              -0.5px 0.5px #77878e,
+              -0.75px 0.75px #77878e,
+              -1px 1px #77878e,
+              -1.25px 1.25px #77878e,
+              -1.5px 1.5px #77878e;
+  -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+}
+
+#b_Fishcenter:hover{
+  font-size: 2vw;
+  color:#e29f76;
+  text-decoration: none;
+text-shadow: -0.25px 0.25px #d4783d,
+              -0.5px 0.5px #d4783d,
+              -0.75px 0.75px #d4783d,
+              -1px 1px #d4783d,
+              -1.25px 1.25px #d4783d,
+              -1.5px 1.5px #d4783d;
+  -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+}
+@media only screen and (max-device-width: 480px) {
+#b_Wizmud{
+  font-size: 0.6em;
+
+}
+#b_Whackanol{
+  font-size: 0.6em;
+}
+#b_Containerbyen{
+  font-size: 0.6em;
+}
+#b_Fishcenter{
+  font-size: 0.6em;
+}
+}
+
+@-webkit-keyframes background {
+  0% { background-color: #f6f2e0; }
+  25% { background-color: #e0f7e0; }  
+  50% { background-color: #e0e8f6; }
+  75% { background-color: #ede0f7; }
+  100% { background-color: #f6f2e0; }
+
+}
+@keyframes background {
+  0% { background-color: #f6f2e0; }
+  25% { background-color: #e0f7e0; }  
+  50% { background-color: #e0e8f6; }
+  75% { background-color: #ede0f7; }
+  100% { background-color: #f6f2e0; }
+}
+@keyframes bounce {
+  0% { transform: scale(0)}
+  100% { transform: scale(1)}
+}
+@keyframes bounce2 {
+  0% { transform: scale(0.45)}
+  20% { transform: scale(1)}
+  100% { transform: scale(0.85)}
+}
+@keyframes unBounce {
+  0% { transform: scale(0.9)}
+  100% { transform: scale(1)}
+}
+@media only screen and (max-device-width: 480px) {
+  #video{
+   margin: 0;
+   min-width: 100%;
+   width: 100%;
+   height: auto;
+}
+#gifs{
+    margin: 0;
+   min-width: 100%;
+   width: 100%;
+   height: auto;
+  }
+  #Home{
+  cursor: pointer;
+width:100%;
+height:100%;
+animation: bounce 1s;
+outline:none;
+}
+#about{
+  font-size: 10px;
+   padding:0;
+  margin: 0;
+  max-width:560px;
+}
+.Description{
+  font-size: 10px;
+   padding:0;
+  margin: 0;
+  max-width:560px;
+}
+#caption{
+  font-size: 10px;
+}
+}
+

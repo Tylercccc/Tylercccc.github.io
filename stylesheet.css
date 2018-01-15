@@ -1,0 +1,311 @@
+* {-webkit-font-smoothing: antialiased;}
+.container {
+  font-family: 'Open Sans';
+    max-width: 100%;
+    height: 50%;
+   position: absolute;   
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  font-weight: 900;
+  
+}
+.icons {
+
+   max-width: 60%;
+    height: auto;
+   position: relative;   
+  margin:0 auto;
+  top:0;
+  bottom:0%;
+  left:0;
+  right:0;
+  text-align: center
+
+}
+h3{
+	 display: block;
+    font-size: 2vmax;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vmax;
+    margin-right: 0.5vmax;
+    font-style: bold;
+    font-weight: 900;
+
+}
+input[type="image"]
+{
+cursor: pointer;
+}
+input[type="image"]:focus {
+  outline: none;
+  cursor: pointer;
+}
+input[type="image"]:hover {
+  /*outline-width: 3px;
+  outline-style: dashed;
+  outline-color: black;
+  cursor: pointer;*/
+  cursor: pointer;
+}
+#button1{
+  
+}
+#button1:hover>#floppyBounce{
+    animation: bounce 1.5s;
+  transform: scale(0.85);
+  cursor: pointer;
+}
+#floppyBounce{
+
+  animation: unBounce 0.3s;
+}
+#button2:hover>#plantBounce{
+    animation: bounce 1.5s;
+  transform: scale(0.85);
+  cursor: pointer;
+}
+#plantBounce{
+  animation: unBounce 0.3s;
+}
+#button3:hover>#smileyBounce{
+  animation: bounce 1.5s;
+  transform: scale(0.85);
+  cursor: pointer;
+}
+#smileyBounce{
+  animation: unBounce 0.3s;
+}
+#button3{
+
+}
+
+#button1:hover>#mygames{
+cursor: pointer;
+    /* color: #9d95b9;*/
+  color: #fec9a8;
+ text-shadow: -0.5px 0.5px #f8a895,
+              -1px 1px #f8a895,
+              -1.5px 1.5px #f8a895,
+              -2px 2px #f8a895,
+              -2.5px 2.5px #f8a895,
+              -3px 3px #f8a895,
+              -3.5px 3.5px #f8a895;
+
+    -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+}
+#button2:hover>#otherworks{
+  cursor: pointer;
+  color: #fec9a8;
+ text-shadow: -0.5px 0.5px #f8a895,
+              -1px 1px #f8a895,
+              -1.5px 1.5px #f8a895,
+              -2px 2px #f8a895,
+              -2.5px 2.5px #f8a895,
+              -3px 3px #f8a895,
+              -3.5px 3.5px #f8a895;
+    -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+}
+#button3:hover>#aboutme{
+  cursor: pointer;
+  color: #fec9a8;
+ text-shadow: -0.5px 0.5px #f8a895,
+              -1px 1px #f8a895,
+              -1.5px 1.5px #f8a895,
+              -2px 2px #f8a895,
+              -2.5px 2.5px #f8a895,
+              -3px 3px #f8a895,
+              -3.5px 3.5px #f8a895;
+    -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+
+}
+#mygames{
+ color:#ffd8c9;
+  font-size: 24px;
+   text-shadow: -0.5px 0.5px #ffbaa7,
+              -1px 1px #ffbaa7,
+              -1.5px 1.5px #ffbaa7,
+              -2px 2px #ffbaa7,
+              -2.5px 2.5px #ffbaa7,
+              -3px 3px #ffbaa7,
+              -3.5px 3.5px #ffbaa7;
+    -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+    letter-spacing: 2px;
+    text-decoration: none;
+/*outline: black dashed thin;*/
+}
+#otherworks{
+ color:#ffd8c9;
+ font-size: 24px;
+ text-decoration: none;
+    text-shadow: -0.5px 0.5px #ffbaa7,
+              -1px 1px #ffbaa7,
+              -1.5px 1.5px #ffbaa7,
+              -2px 2px #ffbaa7,
+              -2.5px 2.5px #ffbaa7,
+              -3px 3px #ffbaa7,
+              -3.5px 3.5px #ffbaa7;
+     -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+    letter-spacing: 2px;
+
+}
+#aboutme{
+ color:#ffd8c9;
+  font-size: 24px;
+  text-decoration: none;
+    text-shadow: -0.5px 0.5px #ffbaa7,
+              -1px 1px #ffbaa7,
+              -1.5px 1.5px #ffbaa7,
+              -2px 2px #ffbaa7,
+              -2.5px 2.5px #ffbaa7,
+              -3px 3px #ffbaa7,
+              -3.5px 3.5px #ffbaa7;
+     -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+    letter-spacing: 2px;
+
+
+}
+#name-gif{
+  width: 820px;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%;  
+  position: relative;
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  animation: bounce2 1s;
+}
+#plant-icon{
+  width: 11%;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%; 
+  position: relative; 
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display:inline-block;
+}
+#plant-icon:hover{
+cursor: pointer;
+}
+#floppy-icon{
+  width: 11%;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;  
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display:inline-block;
+}
+#floppy-icon:hover{
+cursor: pointer;
+}
+#smiley-icon{
+  width: 11%;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%;  
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display:inline-block;
+}
+#smiley-icon:hover{
+cursor: pointer;
+}
+@keyframes bounce {
+  0% { transform: scale(0.45)}
+  20% { transform: scale(1)}
+  100% { transform: scale(0.85)}
+}
+@keyframes bounce2 {
+  0% { transform: scale(0)}
+  100% { transform: scale(1)}
+}
+@keyframes unBounce {
+  0% { transform: scale(0.9)}
+  100% { transform: scale(1)}
+}
+@media only screen and (max-device-width: 480px) {
+#aboutme{
+ font-size: 0.9em;
+}
+#otherworks{
+ font-size: 0.9em;
+}
+#mygames{
+ font-size: 0.9em;
+}
+#floppy-icon{
+  width: 20%;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;  
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display:inline-block;
+}
+#smiley-icon{
+  width: 20%;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%;  
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display:inline-block;
+}
+#plant-icon{
+  width: 20%;
+  height: auto;
+  display:block;
+  max-width: 100%;
+  max-height: 100%; 
+  position: relative; 
+  margin:0 auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display:inline-block;
+}
+}
